@@ -6,7 +6,7 @@
         "symfony/http-client": "^5.3",
         "vlucas/phpdotenv": "^5.3",
         "php": "^7.0.0",
-        "ext-json": "^1.7"
+        "ext-json": "^1.6"
     },
     "authors": [
         {
