@@ -6,12 +6,21 @@
         "symfony/http-client": "^5.3",
         "vlucas/phpdotenv": "^5.3",
         "php": "^7.0.0",
-        "ext-json": "^1.6"
+        "ext-json": "^1.6",
+        "league/config": "^1.0"
+    },
+    "autoload": {
+        "psr-4": {
+            "TmdbProxy\\": "src/"
+        }
     },
     "authors": [
         {
             "name": "Angel S. Moreno",
             "email": "angelxmoreno@gmail.com"
         }
-    ]
+    ],
+    "scripts": {
+        "start": "php -S localhost:8000 -t public/"
+    }
 }
